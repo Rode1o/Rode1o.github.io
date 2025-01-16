@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-.image-frame img {
+.image-frame {
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
