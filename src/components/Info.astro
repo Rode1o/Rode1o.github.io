@@ -1,0 +1,169 @@
+---
+import { profileInfo } from '../lib/data';
+import SocialIcons from './SocialIcons.astro';
+import LiteYoutube from './LiteYoutube.astro';
+import { Image } from 'astro:assets';
+---
+
+<section class="flex flex-col justify-center">
+  <div class="swiper w-full">
+    <div class="swiper-wrapper">
+      {
+        profileInfo.map((info, index) => (
+          <div class="swiper-slide">
+            <div
+              class={`grid ${!info.isProject ? 'grid-cols-1' : 'grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-0'} self-center`}
+            >
+              {info.media && (
+                <div
+                  class={`flex justify-center ${info.isAbout ? 'mb-5' : ''}`}
+                >
+                  {!info.isProject && info.isAbout ? (
+                    <Image
+                      src={info.media}
+                      alt={info.title}
+                      width="400"
+                      height="400"
+                      class="h-[400px] w-[400px] object-cover"
+                      loading={index === 0 ? 'eager' : 'lazy'}
+                      fetchpriority={index === 0 ? 'high' : 'auto'}
+                    />
+                  ) : (
+                    <LiteYoutube videoId={info.media} />
+                  )}
+                </div>
+              )}
+              <div
+                class={`flex flex-col ${!info.isProject ? 'items-center gap-y-5 lg:gap-y-10' : 'items-center gap-y-3.5 lg:items-start'} justify-center`}
+              >
+                <h2
+                  class={`font-audiowide text-primary ${!info.isProject ? 'text-3xl lg:text-7xl' : 'text-3xl'} font-bold drop-shadow-[1px_2px_1px_#B0C4DE]`}
+                >
+                  {info.title}
+                </h2>
+
+                {info.isProject && (
+                  <div class="flex gap-x-1.5">
+                    <p class="font-oxanium bg-secondary text-accent rounded-[10px] px-2.5 py-1 text-sm font-medium sm:text-base">
+                      Gameplay programmer
+                    </p>
+                    <p class="font-oxanium bg-secondary text-accent rounded-[10px] px-2.5 py-1 text-sm font-medium sm:text-base">
+                      UI programmer
+                    </p>
+                  </div>
+                )}
+
+                <p
+                  class={`font-oxanium text-secondary ${!info.isProject ? 'w-[65%] text-center text-lg leading-normal text-pretty lg:text-3xl lg:leading-10' : 'xl: w-[85%] text-start text-2xl leading-normal text-balance lg:text-[16px] lg:leading-normal xl:text-lg'} font-medium`}
+                  set:html={info.description}
+                />
+
+                {info.socialMedia && (
+                  <div class="flex gap-x-4">
+                    {info.socialMedia?.map((social) => (
+                      <a
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-primary hover:text-secondary transition-all duration-200 ease-in-out hover:scale-105"
+                      >
+                        <SocialIcons name={social.name} />
+                        <span class="sr-only">Visit {social.name}</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
+
+                <ul class="ml-7 list-disc">
+                  {info.highlights?.map((highlight) => (
+                    <li class="font-oxanium text-[17px] font-medium text-[#F0F8FF]">
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
+
+                <div>
+                  {info.download?.map((download) => (
+                    <a
+                      class="font-oxanium text-primary hover:text-secondary text-[17px]"
+                      href={download.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {`Play on ${download.platforms}`}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<section class="my-8">
+  <div class="thumbs flex">
+    <div class="swiper-wrapper justify-center">
+      {
+        profileInfo.map(({ thumbnail }) => (
+          <div class="swiper-slide">
+            <Image
+              class="bg-secondary aspect-square cursor-pointer rounded-xl"
+              src={thumbnail.src}
+              alt={thumbnail.alt}
+              width="200"
+              height="200"
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 768px) 100vw, 200px"
+            />
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<script src="../lib/swiper.ts"></script>
+
+<style>
+  .thumbs .swiper-slide img {
+    object-fit: cover;
+  }
+
+  .thumbs .swiper-slide {
+    filter: grayscale(100%);
+  }
+
+  .thumbs .swiper-slide-thumb-active {
+    filter: grayscale(0);
+  }
+
+  .thumbs .swiper-slide-thumb-active img {
+    box-shadow: 0px 0px 15px -5px #b0c4de;
+    scale: 1.2;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #00a7e1;
+  }
+
+  @media screen and (width >= 1024px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 7%;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+      font-size: 60px;
+      font-weight: 700;
+    }
+  }
+</style>

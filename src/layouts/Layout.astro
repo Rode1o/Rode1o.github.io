@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" as="image" href="/images/about.webp" />
+    <meta
+      name="description"
+      content="frostduv's portfolio, a game developer and UI programmer with 4 years of experience in Unreal Engine, Unity, UEFN, and Roblox. Specialized in creating intuitive interfaces that enhance the gaming experience."
+    />
+    <title>Frostduv</title>
+  </head>
+  <body>
+    <main class="my-8">
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  :root {
+    background-color: #0d1321;
+  }
+</style>

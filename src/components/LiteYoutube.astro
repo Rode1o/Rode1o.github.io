@@ -1,0 +1,10 @@
+---
+const { videoId } = Astro.props;
+---
+
+<lite-youtube class="aspect-video w-full" videoid={videoId}></lite-youtube>
+
+<script>
+  import 'lite-youtube-embed/src/lite-yt-embed.js';
+  import 'lite-youtube-embed/src/lite-yt-embed.css';
+</script>

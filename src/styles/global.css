@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@import '@fontsource/audiowide';
+@import '@fontsource-variable/oxanium';
+
+@theme {
+  --font-audiowide: 'Audiowide', sans-serif;
+  --font-oxanium: 'Oxanium Variable', sans-serif;
+
+  --color-primary: #00a7e1;
+  --color-secondary: #b0c4de;
+  --color-accent: #292c6d;
+  --color-download: #0a264a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  width: fit-content;
+}
