@@ -3,15 +3,16 @@ import { Navigation, Thumbs } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import { profileInfo } from './data';
 
 document.addEventListener('DOMContentLoaded', function () {
   const thumbs = new Swiper('.thumbs', {
-    slidesPerView: 6,
+    slidesPerView: profileInfo.length,
     width: 250,
     spaceBetween: 10,
     breakpoints: {
       340: {
-        width: 300,
+        width: 400,
       },
       540: {
         width: 450,
