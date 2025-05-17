@@ -2,6 +2,26 @@ import type { DataStructure } from '../types/types';
 
 export const profileInfo: DataStructure[] = [
   {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
+    media: 'C6Xn2R-Ro9I',
+    title: 'Courtyard King',
+    description:
+      'Prison Control is a competitive multiplayer experience developed in Unreal Editor for Fortnite (UEFN), where up to 15 players are divided into 3 factions to fight for control over the infamous Meriwether County Correctional Facility. <br> As the UI Programmer, I was responsible for the implementation and logic of all core interface systems. My focus was to create a clean, responsive, and competitive-friendly UI that supports high-paced gameplay and player progression.',
+    highlights: ['Multiplayer', 'Survival Game', 'Real Time Strategy'],
+    download: [
+      {
+        platforms: 'Fortnite',
+        link: 'www.fortnite.com/@skybound-games/2427-7395-6416',
+      },
+    ],
+    thumbnail: {
+      src: '/images/courtyard.webp',
+      alt: 'Illustration of a horde of zombies pressing against steel bars and reaching out, with the text ‘The Walking Dead Universe: Courtyard King’ and the Skybound logo',
+    },
+  },
+  {
     isAbout: true,
     isHome: false,
     isProject: false,
@@ -122,26 +142,6 @@ export const profileInfo: DataStructure[] = [
     thumbnail: {
       src: '/images/tennis-storm.webp',
       alt: 'A tennis field with Tennis Storm title in the front',
-    },
-  },
-  {
-    isAbout: false,
-    isHome: false,
-    isProject: true,
-    media: 'C6Xn2R-Ro9I',
-    title: 'Courtyard King',
-    description:
-      'Prison Control is a competitive multiplayer experience developed in Unreal Editor for Fortnite (UEFN), where up to 15 players are divided into 3 factions to fight for control over the infamous Meriwether County Correctional Facility. <br> As the UI Programmer, I was responsible for the implementation and logic of all core interface systems. My focus was to create a clean, responsive, and competitive-friendly UI that supports high-paced gameplay and player progression.',
-    highlights: ['Multiplayer', 'Survival Game', 'Real Time Strategy'],
-    download: [
-      {
-        platforms: 'Fortnite',
-        link: 'www.fortnite.com/@skybound-games/2427-7395-6416',
-      },
-    ],
-    thumbnail: {
-      src: '/images/courtyard.webp',
-      alt: 'Illustration of a horde of zombies pressing against steel bars and reaching out, with the text ‘The Walking Dead Universe: Courtyard King’ and the Skybound logo',
     },
   },
 ];
