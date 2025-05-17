@@ -105,18 +105,18 @@ import { Image } from 'astro:assets';
   </div>
 </section>
 
-<section class="my-8">
-  <div class="thumbs flex">
-    <div class="swiper-wrapper justify-center">
+<section class="my-8 flex justify-center">
+  <div class="thumbs">
+    <div class="swiper-wrapper flex-wrap justify-center">
       {
         profileInfo.map(({ thumbnail }) => (
-          <div class="swiper-slide">
+          <div class="swiper-slide !h-[70%]">
             <Image
-              class="bg-secondary aspect-square cursor-pointer rounded-xl"
+              class="bg-secondary aspect-square w-60 cursor-pointer rounded-xl"
               src={thumbnail.src}
               alt={thumbnail.alt}
-              width="200"
-              height="200"
+              width="250"
+              height="250"
               loading="lazy"
               decoding="async"
               sizes="(max-width: 768px) 100vw, 200px"
