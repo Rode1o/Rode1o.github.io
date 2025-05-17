@@ -9,4 +9,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: 'https://Rode1o.github.io',
+  base: '/',
+  output: 'static',
 });
