@@ -48,6 +48,26 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
+    media: 'hmM1TgxI1Hs',
+    title: 'Mision Biosegura',
+    description:
+      'This 2D game developed in Unreal Engine is designed as an interactive educational experience that teaches the safe handling of sharp objects in hospital settings. Through two phases —BEFORE and DURING— players learn to identify risks, correctly select personal protective equipment (PPE), and properly dispose of hazardous waste. The gameplay combines exploration, decision-making, and real-time challenges, promoting self-care and accident prevention in clinical environments.',
+    highlights: ['Educational', 'Simulation', '2D', 'Side-scroller'],
+    download: [
+      {
+        platforms: 'Browser',
+        link: 'https://happyverso.com/demo2d/Axa2.html',
+      },
+    ],
+    thumbnail: {
+      src: '/images/safe-mission.webp',
+      alt: 'Sharp Object Safety in Hospital Environments',
+    },
+  },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
     media: 'C6Xn2R-Ro9I',
     title: 'Courtyard King',
     description:
