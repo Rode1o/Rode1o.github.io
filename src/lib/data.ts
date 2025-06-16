@@ -56,7 +56,7 @@ export const profileInfo: DataStructure[] = [
     download: [
       {
         platforms: 'Browser',
-        link: 'https://happyverso.com/demo2d/Axa2.html',
+        link: 'https://happyverso.com/demo2d/Axa2-HTML5-Shipping.html',
       },
     ],
     thumbnail: {
