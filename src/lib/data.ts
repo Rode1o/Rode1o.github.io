@@ -48,6 +48,26 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
+    media: 'DQuKLnA7pKM',
+    title: 'Havoc Hotel: Raptor Heist',
+    description:
+      'Dare to steal a fragile Dino Egg from an abandoned lab. A true heist with the risk of losing your prize 😱',
+    highlights: ['Roguelike PVE', 'CO-OP'],
+    download: [
+      {
+        platforms: 'Fortnite',
+        link: 'https://www.fortnite.com/@teracreators/1311-3035-1480',
+      },
+    ],
+    thumbnail: {
+      src: '/images/raptor-thumbnail.webp',
+      alt: 'Promotional image for the video game "Havoc Hotel Raptor Heist", showing a fish character holding an egg and a raptor in a jungle.',
+    },
+  },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
     media: 'hmM1TgxI1Hs',
     title: 'Mision Biosegura',
     description:
