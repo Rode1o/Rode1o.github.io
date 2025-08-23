@@ -23,8 +23,8 @@ export const profileInfo: DataStructure[] = [
       "I am a Game Developer and UI Programmer with four years of experience in the industry. Skilled in <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Unreal Engine</span> <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Unity</span> <span class='bg-secondary text-accent px-1.5 py-1 rounded'>UEFN</span> and <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Roblox</span> I specialize in creating engaging and intuitive user interfaces that enhance gameplay experiences. Passionate about innovation, I thrive on challenges that push my skills and allow me to contribute to the ever-evolving world of game development.",
     socialMedia: [
       {
-        name: 'twitch',
-        link: 'https://www.twitch.tv/frostduv',
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/duvanrodelo/',
       },
       {
         name: 'youtube',
