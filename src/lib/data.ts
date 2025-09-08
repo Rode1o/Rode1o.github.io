@@ -128,6 +128,26 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
+    media: 'pHMmQKqthPQ',
+    title: 'The Shadow Syndicate',
+    description:
+      'Contributed to the original development of The Shadow Syndicate, a 1930s Brooklyn narrative-driven stealth action game announced for PS5, Xbox Series, Switch 2, and PC. Responsibilities included menu interface, UI target detection system, and dynamic ambient sounds.',
+    highlights: ['Multi-Platform Release', 'Narrative-Driven Gameplay'],
+    download: [
+      {
+        platforms: 'Steam',
+        link: 'https://store.steampowered.com/app/3668300/The_Shadow_Syndicate',
+      },
+    ],
+    thumbnail: {
+      src: '/images/Shadow.webp',
+      alt: 'Syndicate',
+    },
+  },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
     media: 'mq2cfMGErsM',
     title: 'Griefville',
     description:
