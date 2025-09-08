@@ -20,7 +20,7 @@ export const profileInfo: DataStructure[] = [
     isProject: false,
     title: 'Frostduv',
     description:
-      "I am a Game Developer and UI Programmer with four years of experience in the industry. Skilled in <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Unreal Engine</span> <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Unity</span> <span class='bg-secondary text-accent px-1.5 py-1 rounded'>UEFN</span> and <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Roblox</span> I specialize in creating engaging and intuitive user interfaces that enhance gameplay experiences. Passionate about innovation, I thrive on challenges that push my skills and allow me to contribute to the ever-evolving world of game development.",
+      "I am a Game Developer and UI Programmer with four years of experience in the industry, and an Unreal Authorized Instructor (Epic Games). Skilled in <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Unreal Engine</span> <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Unity</span> <span class='bg-secondary text-accent px-1.5 py-1 rounded'>UEFN</span> and <span class='bg-secondary text-accent px-1.5 py-1 rounded'>Roblox</span> I specialize in creating engaging and intuitive user interfaces that enhance gameplay experiences. Passionate about innovation, I thrive on challenges that push my skills and allow me to contribute to the ever-evolving world of game development.",
     socialMedia: [
       {
         name: 'linkedin',
