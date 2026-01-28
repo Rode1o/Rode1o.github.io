@@ -5,7 +5,7 @@ export const profileInfo: DataStructure[] = [
     isAbout: true,
     isHome: false,
     isProject: false,
-    media: '/images/about.webp',
+    media: '/images/New Project.png',
     title: 'About Me',
     description:
       'Ever since I was a little kid, game development has been my passion. I was always obsessed with knowing what is the logic behind all these worlds, I remember sitting down and disarming Mario64, to see what was inside the cartridge. With all this I discovered a great passion for Software development, because it allowed me to create those unrealistic places, where I spent so much hours. That is why I am currently studying video game development in different video game engines such as Unity or Unreal Engine.',
