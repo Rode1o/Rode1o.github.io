@@ -51,7 +51,8 @@ export const profileInfo: DataStructure[] = [
     media: 'DQuKLnA7pKM',
     title: 'DnD Zombie Dragon Adventure',
     description:
-      'An official D&D roguelike where you choose your path through deadly realms, upgrade your power in the village, and face the Dracolich—an epic undead dragon boss fight.',
+      'An official D&D roguelike where you choose your path through deadly realms, upgrade your power in the village, and face the Dracolich—an epic undead dragon boss fight.\n
+      UI-focused contribution: Built the player HUD, FTUX, notifications, and shop UI for an official D&D roguelike where players choose their path, upgrade their power, and face the Dracolich',
     highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
     download: [
       {
@@ -60,7 +61,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/raptor-thumbnail.webp',
+      src: '/images/DND.webp',
       alt: 'Promotional image for the video game "DND Adventure Rogue Like", showing a fish vs a nondead-dragon',
     },
   },
