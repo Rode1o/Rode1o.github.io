@@ -10,7 +10,7 @@ export const profileInfo: DataStructure[] = [
     description:
       'Ever since I was a little kid, game development has been my passion. I was always obsessed with knowing what is the logic behind all these worlds, I remember sitting down and disarming Mario64, to see what was inside the cartridge. With all this I discovered a great passion for Software development, because it allowed me to create those unrealistic places, where I spent so much hours. That is why I am currently studying video game development in different video game engines such as Unity or Unreal Engine.',
     thumbnail: {
-      src: '/images/about.webp',
+      src: '/images/Avatar_1.webp',
       alt: 'Frostduv profile picture',
     },
   },
@@ -42,6 +42,26 @@ export const profileInfo: DataStructure[] = [
     thumbnail: {
       src: '/images/home-thumbnail.webp',
       alt: 'Frostduv profile picture',
+    },
+  },
+    {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
+    media: 'DQuKLnA7pKM',
+    title: 'DnD Zombie Dragon Adventure',
+    description:
+      'An official D&D roguelike where you choose your path through deadly realms, upgrade your power in the village, and face the Dracolich—an epic undead dragon boss fight.',
+    highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
+    download: [
+      {
+        platforms: 'Fortnite',
+        link: 'https://www.fortnite.com/@teracreators/2525-9596-3235',
+      },
+    ],
+    thumbnail: {
+      src: '/images/raptor-thumbnail.webp',
+      alt: 'Promotional image for the video game "DND Adventure Rogue Like", showing a fish vs a nondead-dragon',
     },
   },
   {
