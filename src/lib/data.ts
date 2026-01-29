@@ -48,11 +48,11 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
-    media: 'DQuKLnA7pKM',
+    media: 'RU464w63vcM',
     title: 'DnD Zombie Dragon Adventure',
     description:
       'An official D&D roguelike where you choose your path through deadly realms, upgrade your power in the village, and face the Dracolich—an epic undead dragon boss fight.<br /><br />' +
-      'UI-focused contribution: Built the player HUD, FTUX, notifications, and shop UI for an official D&D roguelike where players choose their path, upgrade their power, and face the Dracolich',
+      '<bold>UI-focused contribution:</bold> Built the player HUD, FTUX, notifications, and shop UI for an official D&D roguelike where players choose their path, upgrade their power, and face the Dracolich',
     highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
     download: [
       {
@@ -72,7 +72,8 @@ export const profileInfo: DataStructure[] = [
     media: 'DQuKLnA7pKM',
     title: 'Havoc Hotel: Raptor Heist',
     description:
-      'Dare to steal a fragile Dino Egg from an abandoned lab. A true heist with the risk of losing your prize 😱',
+      'Dare to steal a fragile Dino Egg from an abandoned lab. A true heist with the risk of losing your prize 😱.<br /><br />' +
+      '<bold>UI-focused contribution:</bold> Player HUD adjustments, Prestige Shop UI, and in-game notifications.',
     highlights: ['Roguelike PVE', 'CO-OP'],
     download: [
       {
@@ -92,7 +93,8 @@ export const profileInfo: DataStructure[] = [
     media: 'hmM1TgxI1Hs',
     title: 'Mision Biosegura',
     description:
-      'This 2D game developed in Unreal Engine is designed as an interactive educational experience that teaches the safe handling of sharp objects in hospital settings. Through two phases —BEFORE and DURING— players learn to identify risks, correctly select personal protective equipment (PPE), and properly dispose of hazardous waste. The gameplay combines exploration, decision-making, and real-time challenges, promoting self-care and accident prevention in clinical environments.',
+      'This 2D game developed in Unreal Engine is designed as an interactive educational experience that teaches the safe handling of sharp objects in hospital settings. Through two phases —BEFORE and DURING— players learn to identify risks, correctly select personal protective equipment (PPE), and properly dispose of hazardous waste. The gameplay combines exploration, decision-making, and real-time challenges, promoting self-care and accident prevention in clinical environments..<br /><br />' +
+      '<bold>UI-focused contribution:</bold> Built the player HUD',
     highlights: ['Educational', 'Simulation', '2D', 'Side-scroller'],
     download: [
       {
