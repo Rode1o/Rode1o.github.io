@@ -44,6 +44,27 @@ export const profileInfo: DataStructure[] = [
       alt: 'Frostduv profile picture',
     },
   },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
+    media: 'SzLv-SoALkk',
+    title: 'Brainrot Room Rush',
+    description:
+      'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress..<br /><br />' +
+      '<bold>UI-focused contribution:</bold> Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.Developed a reactive Buff HUD supporting timed, stackable, and permanent effects with synchronized gameplay updates. Created a reusable Card UI Framework featuring rarity styling, animated states, and optimized reusable components. Implemented 3D world-to-UI interactions and collaborated on in-world card presentation systems compatible with StreamingEnabled.',
+    highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
+    download: [
+      {
+        platforms: 'Roblox',
+        link: 'https://www.roblox.com/es/games/73079695240690/Brainrot-Room-Rush',
+      },
+    ],
+    thumbnail: {
+      src: '/images/BRRR_TN_V1.webp',
+      alt: 'Battle Brainrot monsters, clear rooms, and earn rewards in a neon arcade adventure.',
+    },
+  },
     {
     isAbout: false,
     isHome: false,
