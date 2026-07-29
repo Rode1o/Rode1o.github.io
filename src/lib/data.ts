@@ -52,7 +52,7 @@ export const profileInfo: DataStructure[] = [
     title: 'Brainrot Room Rush',
     description:
       'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress..<br /><br />' +
-      '<bold>UI-focused contribution:</bold> Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.<br> Developed a reactive Buff HUD supporting timed, stackable, and permanent effects with synchronized gameplay updates.<br>Created a reusable Card UI Framework featuring rarity styling, animated states, and optimized reusable components.<br>Implemented 3D world-to-UI interactions and collaborated on in-world card presentation systems compatible with StreamingEnabled.',
+      '<bold>UI-focused contribution:</bold> Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts. Developed a reactive Buff HUD supporting timed, stackable, and permanent effects with synchronized gameplay updates. Created a reusable Card UI Framework featuring rarity styling, animated states, and optimized reusable components. Implemented 3D world-to-UI interactions and collaborated on in-world card presentation systems compatible with StreamingEnabled.',
     highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
     download: [
       {
