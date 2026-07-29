@@ -51,15 +51,14 @@ export const profileInfo: DataStructure[] = [
     media: 'SzLv-SoALkk',
     title: 'Brainrot Room Rush',
     description:
-  'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress.<br /><br />' +
-  '<bold>UI-focused contribution:</bold>' +
-  '<ul>' +
-  '<li>Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.</li>' +
-  '<li>Developed a reactive Buff HUD supporting timed, stackable, and permanent effects synchronized with gameplay.</li>' +
-  '<li>Created a reusable Card UI Framework with rarity styling, animated states, and modular components.</li>' +
-  '<li>Implemented 3D world-to-UI interactions for interactive gameplay elements.</li>' +
-  '<li>Collaborated on in-world card presentation systems compatible with StreamingEnabled.</li>' +
-  '</ul>',
+      'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress.<br /><br />' + 
+      '<bold>UI-focused contribution:</bold>' + '<ul>' + 
+      '<li>Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.</li>' +
+      '<li>Developed a reactive Buff HUD supporting timed, stackable, and permanent effects synchronized with gameplay.</li>' +
+      '<li>Created a reusable Card UI Framework with rarity styling, animated states, and modular components.</li>' +
+      '<li>Implemented 3D world-to-UI interactions for interactive gameplay elements.</li>' +
+      '<li>Collaborated on in-world card presentation systems compatible with StreamingEnabled.</li>' +
+      '</ul>',
     highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
     download: [
       {
