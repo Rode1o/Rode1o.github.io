@@ -53,11 +53,11 @@ export const profileInfo: DataStructure[] = [
     description:
       'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress.<br /><br />' + 
       '<bold>UI-focused contribution:</bold><br/>' +  
-      'Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.<br/>' +
-      'Developed a reactive Buff HUD supporting timed, stackable, and permanent effects synchronized with gameplay.<br/>' +
-      'Created a reusable Card UI Framework with rarity styling, animated states, and modular components.<br/>' +
-      'Implemented 3D world-to-UI interactions for interactive gameplay elements.<br/>' +
-      'Collaborated on in-world card presentation systems compatible with StreamingEnabled.<br/>',
+      '- Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.<br/>' +
+      '- Developed a reactive Buff HUD supporting timed, stackable, and permanent effects synchronized with gameplay.<br/>' +
+      '- Created a reusable Card UI Framework with rarity styling, animated states, and modular components.<br/>' +
+      '- Implemented 3D world-to-UI interactions for interactive gameplay elements.<br/>' +
+      '- Collaborated on in-world card presentation systems compatible with StreamingEnabled.<br/>',
     highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
     download: [
       {
