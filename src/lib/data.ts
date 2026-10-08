@@ -8,7 +8,7 @@ export const profileInfo: DataStructure[] = [
     media: '/images/Avatar_1.webp',
     title: 'About Me',
     description:
-      'Ever since I was a little kid, game development has been my passion. I was always obsessed with knowing what is the logic behind all these worlds, I remember sitting down and disarming Mario64, to see what was inside the cartridge. With all this I discovered a great passion for Software development, because it allowed me to create those unrealistic places, where I spent so much hours. That is why I am currently studying video game development in different video game engines such as Unity or Unreal Engine.',
+      'Ever since I was a little kid, game development has been my passion. I was always obsessed with knowing what is the logic behind all these worlds, I remember sitting down and taking apart my Mario 64 cartridge, to see what was inside. With all this I discovered a great passion for Software development, because it allowed me to create those unrealistic places, where I spent so many hours. That is why I am currently studying video game development in different video game engines such as Unity or Unreal Engine.',
     thumbnail: {
       src: '/images/Avatar_1.webp',
       alt: 'Frostduv profile picture',
@@ -50,9 +50,10 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'xPAKeGkyQEc',
     title: 'Star Wars Roguelike One',
+    roles: ['UI programmer'],
     description:
       'A replayable Star Wars-inspired roguelike with 25 action-packed levels across 4 iconic locations. Earn credits by defeating the Empire, unlock powerful weapons and permanent upgrades, and gain prestige to reach even higher power levels.<br /><br />' +
-      '<bold>UI-focused contribution:</bold> Built the player HUD, the shop and depot systems, and in-game notifications.',
+      '<strong>UI-focused contribution:</strong> Built the player HUD, the shop and depot systems, and in-game notifications.',
     highlights: ['Roguelike PVE', 'Action', 'Adventure'],
     download: [
       {
@@ -72,9 +73,10 @@ export const profileInfo: DataStructure[] = [
     media: 'zwY9tf59rnA',
     vertical: true,
     title: 'Steal An Egg',
+    roles: ['UI programmer'],
     description:
       'Steal pet eggs, hatch them to get rare pets, and earn money from your collection. Upgrade your treadmill and base, train for more speed, and steal eggs from other players while discovering rare eggs, pets, sizes, and mutations. A collaboration between Do Big Studios, Misfits Gaming, and TeraCreators.<br /><br />' +
-      '<bold>UI-focused contribution:</bold> Built the egg/pet shops, sell shop, inventory, hotbar, UI input bindings, and player HUD.',
+      '<strong>UI-focused contribution:</strong> Built the egg/pet shops, sell shop, inventory, hotbar, UI input bindings, and player HUD.',
     highlights: ['Tycoon', 'PVP', 'Collection'],
     download: [
       {
@@ -93,9 +95,10 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'SzLv-SoALkk',
     title: 'Brainrot Room Rush',
+    roles: ['UI programmer'],
     description:
       'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress.<br /><br />' + 
-      '<bold>UI-focused contribution:</bold><br/>' +  
+      '<strong>UI-focused contribution:</strong><br/>' +  
       '• Built a data-driven Quest/Mission UI with reusable components, progress tracking, countdown timers, and responsive PC/mobile layouts.<br/>' +
       '• Developed a reactive Buff HUD supporting timed, stackable, and permanent effects synchronized with gameplay.<br/>' +
       '• Created a reusable Card UI Framework with rarity styling, animated states, and modular components.<br/>' +
@@ -119,9 +122,10 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'RU464w63vcM',
     title: 'DnD Zombie Dragon Adventure',
+    roles: ['UI programmer'],
     description:
       'An official D&D roguelike where you choose your path through deadly realms, upgrade your power in the village, and face the Dracolich—an epic undead dragon boss fight.<br /><br />' +
-      '<bold>UI-focused contribution:</bold> Built the player HUD, FTUX, notifications, and shop UI for an official D&D roguelike where players choose their path, upgrade their power, and face the Dracolich',
+      '<strong>UI-focused contribution:</strong> Built the player HUD, FTUX, notifications, and shop UI for an official D&D roguelike where players choose their path, upgrade their power, and face the Dracolich',
     highlights: ['Roguelike PVE', 'CO-OP', 'Adventure'],
     download: [
       {
@@ -140,9 +144,10 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'DQuKLnA7pKM',
     title: 'Havoc Hotel: Raptor Heist',
+    roles: ['UI programmer'],
     description:
       'Dare to steal a fragile Dino Egg from an abandoned lab. A true heist with the risk of losing your prize 😱.<br /><br />' +
-      '<bold>UI-focused contribution:</bold> Player HUD adjustments, Prestige Shop UI, and in-game notifications.',
+      '<strong>UI-focused contribution:</strong> Player HUD adjustments, Prestige Shop UI, and in-game notifications.',
     highlights: ['Roguelike PVE', 'CO-OP'],
     download: [
       {
@@ -161,9 +166,10 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'hmM1TgxI1Hs',
     title: 'Mision Biosegura',
+    roles: ['UI programmer'],
     description:
-      'This 2D game developed in Unreal Engine is designed as an interactive educational experience that teaches the safe handling of sharp objects in hospital settings. Through two phases —BEFORE and DURING— players learn to identify risks, correctly select personal protective equipment (PPE), and properly dispose of hazardous waste. The gameplay combines exploration, decision-making, and real-time challenges, promoting self-care and accident prevention in clinical environments..<br /><br />' +
-      '<bold>UI-focused contribution:</bold> Built the player HUD',
+      'This 2D game developed in Unreal Engine is designed as an interactive educational experience that teaches the safe handling of sharp objects in hospital settings. Through two phases —BEFORE and DURING— players learn to identify risks, correctly select personal protective equipment (PPE), and properly dispose of hazardous waste. The gameplay combines exploration, decision-making, and real-time challenges, promoting self-care and accident prevention in clinical environments.<br /><br />' +
+      '<strong>UI-focused contribution:</strong> Built the player HUD',
     highlights: ['Educational', 'Simulation', '2D', 'Side-scroller'],
     download: [
       {
@@ -182,13 +188,14 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'aPL00ESX3Yo',
     title: 'Courtyard King',
+    roles: ['UI programmer'],
     description:
-      'Prison Control is a competitive multiplayer experience developed in Unreal Editor for Fortnite (UEFN), where up to 15 players are divided into 3 factions to fight for control over the infamous Meriwether County Correctional Facility. <br> As the UI Programmer, I was responsible for the implementation and logic of all core interface systems. My focus was to create a clean, responsive, and competitive-friendly UI that supports high-paced gameplay and player progression.',
+      'Courtyard King is a competitive multiplayer experience developed in Unreal Editor for Fortnite (UEFN), where up to 15 players are divided into 3 factions to fight for control over the infamous Meriwether County Correctional Facility. <br> As the UI Programmer, I was responsible for the implementation and logic of all core interface systems. My focus was to create a clean, responsive, and competitive-friendly UI that supports high-paced gameplay and player progression.',
     highlights: ['Multiplayer', 'Survival Game', 'Real Time Strategy'],
     download: [
       {
         platforms: 'Fortnite',
-        link: 'www.fortnite.com/@skybound-games/2427-7395-6416',
+        link: 'https://www.fortnite.com/@skybound-games/2427-7395-6416',
       },
     ],
     thumbnail: {
@@ -202,6 +209,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'xtEBMlcBf8E',
     title: 'Havoc Hotel 3',
+    roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Once the luxurious Haven Hotel, now the chaotic Havoc Hotel, seized by a dangerous group. Amidst the turmoil, an intense roguelike challenge awaits. Built with UEFN.',
     highlights: ['Roguelike', 'PVE'],
@@ -222,6 +230,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'pHMmQKqthPQ',
     title: 'The Shadow Syndicate',
+    roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Contributed to the original development of The Shadow Syndicate, a 1930s Brooklyn narrative-driven stealth action game announced for PS5, Xbox Series, Switch 2, and PC. Responsibilities included menu interface, UI target detection system, and dynamic ambient sounds.',
     highlights: ['Multi-Platform Release', 'Narrative-Driven Gameplay'],
@@ -242,6 +251,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'mq2cfMGErsM',
     title: 'Griefville',
+    roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Griefville is a multiplayer survival game, it features an open world where PVE, PVP and unique game modes (a.k.a, Nightmares) come together to create an engaging survival experience inside of Roblox.',
     highlights: ['Survival Game', 'Open World'],
@@ -262,6 +272,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'fQapNP0-w3Q',
     title: 'Once Upon Tomorrow',
+    roles: ['Gameplay programmer', 'UI programmer'],
     description:
       "This parkour-focused map challenges your agility as you leap across futuristic landscapes, master intricate obstacles, and uncover hidden secrets. Whether you're chasing the fastest time or exploring at your own pace, every run is a unique adventure.",
     highlights: ['Only UP', 'Platformer'],
@@ -282,6 +293,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'QKG2DznBT-U',
     title: 'Tennis Storm (US Open)',
+    roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Challenge other players in an exciting survival game created in UEFN for the US Open. Dodge tennis balls launched by cannons, deflect them to eliminate other players with a single hit, or survive up to three impacts. Become the last player standing and claim the champion’s title!',
     highlights: ['PVP', 'Sports'],

@@ -42,14 +42,13 @@ import { Image } from 'astro:assets';
                   {info.title}
                 </h2>
 
-                {info.isProject && (
-                  <div class="flex gap-x-1.5">
-                    <p class="font-oxanium bg-secondary text-accent rounded-[10px] px-2.5 py-1 text-sm font-medium sm:text-base">
-                      Gameplay programmer
-                    </p>
-                    <p class="font-oxanium bg-secondary text-accent rounded-[10px] px-2.5 py-1 text-sm font-medium sm:text-base">
-                      UI programmer
-                    </p>
+                {info.roles && (
+                  <div class="flex flex-wrap gap-1.5">
+                    {info.roles.map((role) => (
+                      <p class="font-oxanium bg-secondary text-accent rounded-[10px] px-2.5 py-1 text-sm font-medium sm:text-base">
+                        {role}
+                      </p>
+                    ))}
                   </div>
                 )}
 
