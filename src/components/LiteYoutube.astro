@@ -1,10 +1,27 @@
 ---
-const { videoId } = Astro.props;
+const { videoId, vertical = false } = Astro.props;
 ---
 
-<lite-youtube class="aspect-video w-full" videoid={videoId}></lite-youtube>
+<lite-youtube
+  class={vertical ? 'lyt-vertical' : 'aspect-video w-full'}
+  videoid={videoId}></lite-youtube>
 
 <script>
   import 'lite-youtube-embed/src/lite-yt-embed.js';
   import 'lite-youtube-embed/src/lite-yt-embed.css';
 </script>
+
+<style is:global>
+  /* 9:16 player for YouTube Shorts: the width is capped so the full height
+     always fits in the viewport, on phones and desktops alike */
+  lite-youtube.lyt-vertical {
+    width: 100%;
+    max-width: min(100%, 380px, calc(75vh * 9 / 16));
+    max-width: min(100%, 380px, calc(75svh * 9 / 16));
+    margin-inline: auto;
+  }
+
+  lite-youtube.lyt-vertical::after {
+    padding-bottom: calc(100% / (9 / 16));
+  }
+</style>

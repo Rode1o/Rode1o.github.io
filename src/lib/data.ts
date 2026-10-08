@@ -69,6 +69,28 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
+    media: 'zwY9tf59rnA',
+    vertical: true,
+    title: 'Steal An Egg',
+    description:
+      'Steal pet eggs, hatch them to get rare pets, and earn money from your collection. Upgrade your treadmill and base, train for more speed, and steal eggs from other players while discovering rare eggs, pets, sizes, and mutations. A collaboration between Do Big Studios, Misfits Gaming, and TeraCreators.<br /><br />' +
+      '<bold>UI-focused contribution:</bold> Built the egg/pet shops, sell shop, inventory, hotbar, UI input bindings, and player HUD.',
+    highlights: ['Tycoon', 'PVP', 'Collection'],
+    download: [
+      {
+        platforms: 'Fortnite',
+        link: 'https://www.fortnite.com/play/island/6898-9449-5160',
+      },
+    ],
+    thumbnail: {
+      src: '/images/Sae.webp',
+      alt: 'Promotional image for the video game "Steal An Egg"',
+    },
+  },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
     media: 'SzLv-SoALkk',
     title: 'Brainrot Room Rush',
     description:

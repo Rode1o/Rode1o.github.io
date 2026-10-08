@@ -12,7 +12,7 @@ import { Image } from 'astro:assets';
         profileInfo.map((info, index) => (
           <div class="swiper-slide">
             <div
-              class={`grid ${!info.isProject ? 'grid-cols-1' : 'grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-0'} self-center`}
+              class={`grid px-10 sm:px-14 lg:px-[calc(7%_+_16px)] ${!info.isProject ? 'grid-cols-1' : 'grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-0'} self-center`}
             >
               {info.media && (
                 <div
@@ -29,7 +29,7 @@ import { Image } from 'astro:assets';
                       fetchpriority={index === 0 ? 'high' : 'auto'}
                     />
                   ) : (
-                    <LiteYoutube videoId={info.media} />
+                    <LiteYoutube videoId={info.media} vertical={info.vertical} />
                   )}
                 </div>
               )}

@@ -3,6 +3,7 @@ export interface DataStructure {
   isHome: boolean;
   isProject: boolean;
   media?: string;
+  vertical?: boolean;
   title: string;
   description: string;
   highlights?: string[];
