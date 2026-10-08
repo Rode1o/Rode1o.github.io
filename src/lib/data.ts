@@ -48,6 +48,27 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
+    media: 'xPAKeGkyQEc',
+    title: 'Star Wars Roguelike One',
+    description:
+      'A replayable Star Wars-inspired roguelike with 25 action-packed levels across 4 iconic locations. Earn credits by defeating the Empire, unlock powerful weapons and permanent upgrades, and gain prestige to reach even higher power levels.<br /><br />' +
+      '<bold>UI-focused contribution:</bold> Built the player HUD, the shop and depot systems, and in-game notifications.',
+    highlights: ['Roguelike PVE', 'Action', 'Adventure'],
+    download: [
+      {
+        platforms: 'Fortnite',
+        link: 'https://www.fortnite.com/play/island/8168-9772-8295',
+      },
+    ],
+    thumbnail: {
+      src: '/images/DroidDepot.webp',
+      alt: 'Promotional image for the video game "Star Wars Roguelike One", showing the Droid Depot',
+    },
+  },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
     media: 'SzLv-SoALkk',
     title: 'Brainrot Room Rush',
     description:
