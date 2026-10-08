@@ -5,12 +5,12 @@ export const profileInfo: DataStructure[] = [
     isAbout: true,
     isHome: false,
     isProject: false,
-    media: '/images/Avatar_1.webp',
+    media: 'Avatar_1.webp',
     title: 'About Me',
     description:
       'Ever since I was a little kid, game development has been my passion. I was always obsessed with knowing what is the logic behind all these worlds, I remember sitting down and taking apart my Mario 64 cartridge, to see what was inside. With all this I discovered a great passion for Software development, because it allowed me to create those unrealistic places, where I spent so many hours. That is why I am currently studying video game development in different video game engines such as Unity or Unreal Engine.',
     thumbnail: {
-      src: '/images/Avatar_1.webp',
+      src: 'Avatar_1.webp',
       alt: 'Frostduv profile picture',
     },
   },
@@ -40,7 +40,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/home-thumbnail.webp',
+      src: 'home-thumbnail.webp',
       alt: 'Frostduv profile picture',
     },
   },
@@ -62,7 +62,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/DroidDepot.webp',
+      src: 'DroidDepot.webp',
       alt: 'Promotional image for the video game "Star Wars Roguelike One", showing the Droid Depot',
     },
   },
@@ -85,7 +85,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/Sae.webp',
+      src: 'Sae.webp',
       alt: 'Promotional image for the video game "Steal An Egg"',
     },
   },
@@ -112,7 +112,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/BRRR_TN_V1.webp',
+      src: 'BRRR_TN_V1.webp',
       alt: 'Battle Brainrot monsters, clear rooms, and earn rewards in a neon arcade adventure.',
     },
   },
@@ -134,7 +134,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/DND.webp',
+      src: 'DND.webp',
       alt: 'Promotional image for the video game "DND Adventure Rogue Like", showing a fish vs a nondead-dragon',
     },
   },
@@ -156,7 +156,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/raptor-thumbnail.webp',
+      src: 'raptor-thumbnail.webp',
       alt: 'Promotional image for the video game "Havoc Hotel Raptor Heist", showing a fish character holding an egg and a raptor in a jungle.',
     },
   },
@@ -178,7 +178,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/safe-mission.webp',
+      src: 'safe-mission.webp',
       alt: 'Sharp Object Safety in Hospital Environments',
     },
   },
@@ -199,7 +199,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/courtyard.webp',
+      src: 'courtyard.webp',
       alt: 'Illustration of a horde of zombies pressing against steel bars and reaching out, with the text ‘The Walking Dead Universe: Courtyard King’ and the Skybound logo',
     },
   },
@@ -220,7 +220,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/havoc-hotel.webp',
+      src: 'havoc-hotel.webp',
       alt: 'Havoc Hotel',
     },
   },
@@ -241,7 +241,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/Shadow.webp',
+      src: 'Shadow.webp',
       alt: 'Syndicate',
     },
   },
@@ -262,7 +262,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/griefville.webp',
+      src: 'griefville.webp',
       alt: 'Chucky holding a knife',
     },
   },
@@ -283,7 +283,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/once-upon-tomorrow.webp',
+      src: 'once-upon-tomorrow.webp',
       alt: 'Once Upon Tomorrow with a big sphere as background',
     },
   },
@@ -304,7 +304,7 @@ export const profileInfo: DataStructure[] = [
       },
     ],
     thumbnail: {
-      src: '/images/tennis-storm.webp',
+      src: 'tennis-storm.webp',
       alt: 'A tennis field with Tennis Storm title in the front',
     },
   },

@@ -3,6 +3,7 @@ import { profileInfo } from '../lib/data';
 import SocialIcons from './SocialIcons.astro';
 import LiteYoutube from './LiteYoutube.astro';
 import { Image } from 'astro:assets';
+import { getImage } from '../lib/images';
 ---
 
 <section class="flex flex-col justify-center">
@@ -20,10 +21,10 @@ import { Image } from 'astro:assets';
                 >
                   {!info.isProject && info.isAbout ? (
                     <Image
-                      src={info.media}
+                      src={getImage(info.media)}
                       alt={info.title}
-                      width="400"
-                      height="400"
+                      widths={[400, 800]}
+                      sizes="400px"
                       class="h-[400px] w-[400px] object-cover"
                       loading={index === 0 ? 'eager' : 'lazy'}
                       fetchpriority={index === 0 ? 'high' : 'auto'}
@@ -104,48 +105,61 @@ import { Image } from 'astro:assets';
   </div>
 </section>
 
-<section class="my-8 flex justify-center">
-  <div class="thumbs">
-    <div class="swiper-wrapper flex-wrap justify-center">
-      {
-        profileInfo.map(({ thumbnail }) => (
-          <div class="swiper-slide !h-[70%]">
-            <Image
-              class="bg-secondary aspect-square w-60 cursor-pointer rounded-xl"
-              src={thumbnail.src}
-              alt={thumbnail.alt}
-              width="250"
-              height="250"
-              loading="lazy"
-              decoding="async"
-              sizes="(max-width: 768px) 100vw, 200px"
-            />
-          </div>
-        ))
-      }
-    </div>
+<section class="my-8 flex justify-center px-4">
+  <div class="thumbs flex w-full max-w-[800px] flex-wrap justify-center gap-2 sm:gap-4">
+    {
+      profileInfo.map(({ thumbnail, title }, index) => (
+        <button
+          type="button"
+          class="thumb cursor-pointer rounded-xl"
+          data-index={index}
+          aria-label={`Show ${title}`}
+        >
+          <Image
+            class="bg-secondary aspect-square w-full rounded-xl object-cover"
+            src={getImage(thumbnail.src)}
+            alt={thumbnail.alt}
+            widths={[150, 300]}
+            sizes="(max-width: 800px) 20vw, 150px"
+            loading="lazy"
+            decoding="async"
+          />
+        </button>
+      ))
+    }
   </div>
 </section>
 
 <script src="../lib/swiper.ts"></script>
 
 <style>
-  .thumbs .swiper-slide img {
-    object-fit: cover;
-  }
-
-  .thumbs .swiper-slide {
+  /* 5 per row; the last row stays centered */
+  .thumb {
+    width: calc((100% - 4 * 0.5rem) / 5);
     filter: grayscale(100%);
+    transition:
+      filter 0.15s ease-in-out,
+      scale 0.15s ease-in-out;
   }
 
-  .thumbs .swiper-slide-thumb-active {
+  @media screen and (width >= 40rem) {
+    .thumb {
+      width: calc((100% - 4 * 1rem) / 5);
+    }
+  }
+
+  .thumb:hover,
+  .thumb:focus-visible {
     filter: grayscale(0);
   }
 
-  .thumbs .swiper-slide-thumb-active img {
+  .thumb.is-active {
+    filter: grayscale(0);
+    scale: 1.08;
+  }
+
+  .thumb.is-active img {
     box-shadow: 0px 0px 15px -5px #b0c4de;
-    scale: 1.2;
-    transition: all 0.1s ease-in-out;
   }
 
   .swiper-button-next,

@@ -1,47 +1,38 @@
 import Swiper from 'swiper';
-import { Navigation, Thumbs } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/thumbs';
-import { profileInfo } from './data';
 
 document.addEventListener('DOMContentLoaded', function () {
-  const thumbs = new Swiper('.thumbs', {
-    slidesPerView: profileInfo.length,
-    width: 250,
-    spaceBetween: 10,
-    breakpoints: {
-      340: {
-        width: 400,
-      },
-      540: {
-        width: 450,
-        spaceBetween: 20,
-      },
-      1024: {
-        width: 700,
-        spaceBetween: 30,
-      },
-      1500: {
-        width: 800,
-        spaceBetween: 30,
-      },
-    },
-  });
-
   const swiper = new Swiper('.swiper', {
-    modules: [Navigation, Thumbs],
+    modules: [Navigation],
     slidesPerView: 1,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    thumbs: {
-      swiper: thumbs,
-    },
     autoHeight: true,
     initialSlide: 1,
   });
+
+  const thumbs = document.querySelectorAll<HTMLButtonElement>('.thumb');
+
+  function updateActiveThumb() {
+    thumbs.forEach((thumb, index) => {
+      const isActive = index === swiper.activeIndex;
+      thumb.classList.toggle('is-active', isActive);
+      thumb.setAttribute('aria-current', String(isActive));
+    });
+  }
+
+  thumbs.forEach((thumb) => {
+    thumb.addEventListener('click', () => {
+      swiper.slideTo(Number(thumb.dataset.index));
+    });
+  });
+
+  swiper.on('slideChange', updateActiveThumb);
+  updateActiveThumb();
 
   let currentVideo: HTMLElement | null = null;
 
