@@ -48,8 +48,38 @@ export const profileInfo: DataStructure[] = [
     isAbout: false,
     isHome: false,
     isProject: true,
+    media: 'ckaUAIQZyU8',
+    title: 'Nekome: Nazi Hunter',
+    studio: 'KillaSoft for ProbablyMonster',
+    roles: ['Technical Designer'],
+    description:
+      'A single-player third-person combat game where you play as Vano Nastasu, a young Romani man consumed by grief after the brutal murder of his family at the hands of Nazi soldiers.<br /><br />' +
+      '<strong>Technical design contribution:</strong><br/>' +
+      '• Set up and scripted missions and enemy events.<br/>' +
+      '• Built an enemy spawner system.<br/>' +
+      '• Created a dynamic music system for boss fights.<br/>' +
+      '• Implemented and tuned checkpoints.<br/>' +
+      '• Implemented enemy health bar UI.<br/>' +
+      '• Built a formation system for choreographed enemy squad marches.<br/>',
+    highlights: ['Single-player', 'Third-person combat', 'Narrative-driven'],
+    download: [
+      {
+        platforms: 'Steam',
+        link: 'https://store.steampowered.com/app/4200110/Nekome_Nazi_Hunter/',
+      },
+    ],
+    thumbnail: {
+      src: 'nekome.webp',
+      alt: 'Promotional image for the video game "Nekome: Nazi Hunter"',
+    },
+  },
+  {
+    isAbout: false,
+    isHome: false,
+    isProject: true,
     media: 'xPAKeGkyQEc',
     title: 'Star Wars Roguelike One',
+    studio: 'Teravision Games',
     roles: ['UI programmer'],
     description:
       'A replayable Star Wars-inspired roguelike with 25 action-packed levels across 4 iconic locations. Earn credits by defeating the Empire, unlock powerful weapons and permanent upgrades, and gain prestige to reach even higher power levels.<br /><br />' +
@@ -73,6 +103,7 @@ export const profileInfo: DataStructure[] = [
     media: 'zwY9tf59rnA',
     vertical: true,
     title: 'Steal An Egg',
+    studio: 'Teravision Games for Do Big Studios',
     roles: ['UI programmer'],
     description:
       'Steal pet eggs, hatch them to get rare pets, and earn money from your collection. Upgrade your treadmill and base, train for more speed, and steal eggs from other players while discovering rare eggs, pets, sizes, and mutations. A collaboration between Do Big Studios, Misfits Gaming, and TeraCreators.<br /><br />' +
@@ -95,6 +126,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'SzLv-SoALkk',
     title: 'Brainrot Room Rush',
+    studio: 'Teravision Games',
     roles: ['UI programmer'],
     description:
       'Roblox experience where you collect power-ups, upgrade your character, and become stronger as you progress.<br /><br />' + 
@@ -122,6 +154,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'RU464w63vcM',
     title: 'DnD Zombie Dragon Adventure',
+    studio: 'Teravision Games',
     roles: ['UI programmer'],
     description:
       'An official D&D roguelike where you choose your path through deadly realms, upgrade your power in the village, and face the Dracolich—an epic undead dragon boss fight.<br /><br />' +
@@ -144,6 +177,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'DQuKLnA7pKM',
     title: 'Havoc Hotel: Raptor Heist',
+    studio: 'Teravision Games',
     roles: ['UI programmer'],
     description:
       'Dare to steal a fragile Dino Egg from an abandoned lab. A true heist with the risk of losing your prize 😱.<br /><br />' +
@@ -166,6 +200,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'hmM1TgxI1Hs',
     title: 'Mision Biosegura',
+    studio: 'Kuvanty for AXA Colpatria',
     roles: ['UI programmer'],
     description:
       'This 2D game developed in Unreal Engine is designed as an interactive educational experience that teaches the safe handling of sharp objects in hospital settings. Through two phases —BEFORE and DURING— players learn to identify risks, correctly select personal protective equipment (PPE), and properly dispose of hazardous waste. The gameplay combines exploration, decision-making, and real-time challenges, promoting self-care and accident prevention in clinical environments.<br /><br />' +
@@ -188,6 +223,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'aPL00ESX3Yo',
     title: 'Courtyard King',
+    studio: 'Teravision Games',
     roles: ['UI programmer'],
     description:
       'Courtyard King is a competitive multiplayer experience developed in Unreal Editor for Fortnite (UEFN), where up to 15 players are divided into 3 factions to fight for control over the infamous Meriwether County Correctional Facility. <br> As the UI Programmer, I was responsible for the implementation and logic of all core interface systems. My focus was to create a clean, responsive, and competitive-friendly UI that supports high-paced gameplay and player progression.',
@@ -209,6 +245,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'xtEBMlcBf8E',
     title: 'Havoc Hotel 3',
+    studio: 'Teravision Games',
     roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Once the luxurious Haven Hotel, now the chaotic Havoc Hotel, seized by a dangerous group. Amidst the turmoil, an intense roguelike challenge awaits. Built with UEFN.',
@@ -230,6 +267,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'pHMmQKqthPQ',
     title: 'The Shadow Syndicate',
+    studio: 'KillaSoft',
     roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Contributed to the original development of The Shadow Syndicate, a 1930s Brooklyn narrative-driven stealth action game announced for PS5, Xbox Series, Switch 2, and PC. Responsibilities included menu interface, UI target detection system, and dynamic ambient sounds.',
@@ -251,6 +289,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'mq2cfMGErsM',
     title: 'Griefville',
+    studio: 'On3dGames',
     roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Griefville is a multiplayer survival game, it features an open world where PVE, PVP and unique game modes (a.k.a, Nightmares) come together to create an engaging survival experience inside of Roblox.',
@@ -272,6 +311,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'fQapNP0-w3Q',
     title: 'Once Upon Tomorrow',
+    studio: 'Teravision Games',
     roles: ['Gameplay programmer', 'UI programmer'],
     description:
       "This parkour-focused map challenges your agility as you leap across futuristic landscapes, master intricate obstacles, and uncover hidden secrets. Whether you're chasing the fastest time or exploring at your own pace, every run is a unique adventure.",
@@ -293,6 +333,7 @@ export const profileInfo: DataStructure[] = [
     isProject: true,
     media: 'QKG2DznBT-U',
     title: 'Tennis Storm (US Open)',
+    studio: 'Amber Studio',
     roles: ['Gameplay programmer', 'UI programmer'],
     description:
       'Challenge other players in an exciting survival game created in UEFN for the US Open. Dodge tennis balls launched by cannons, deflect them to eliminate other players with a single hit, or survive up to three impacts. Become the last player standing and claim the champion’s title!',

@@ -5,6 +5,7 @@ export interface DataStructure {
   media?: string;
   vertical?: boolean;
   title: string;
+  studio?: string;
   roles?: string[];
   description: string;
   highlights?: string[];

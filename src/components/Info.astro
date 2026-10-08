@@ -43,6 +43,12 @@ import { getImage } from '../lib/images';
                   {info.title}
                 </h2>
 
+                {info.studio && (
+                  <p class="font-oxanium text-secondary -mt-1.5 text-base font-medium">
+                    {info.studio}
+                  </p>
+                )}
+
                 {info.roles && (
                   <div class="flex flex-wrap gap-1.5">
                     {info.roles.map((role) => (
